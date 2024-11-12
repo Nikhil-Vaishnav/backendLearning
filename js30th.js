@@ -9,6 +9,12 @@
 
 // -------------------------------------------------------
 
-const someValue = require("./math");/**this will inport the file form the math.js */
+// const someValue = require("./math");/**this will inport the file form the math.js */
 
-console.log(someValue);/**this will fetch the value form the math.js */
+// console.log(someValue);/**this will fetch the value form the math.js */
+// -------------------------------------------------------
+
+// this will fetch the whole data from the fruits folder.
+
+const info = require("./fruits");/**this will inport the file form the math.js */
+console.log(info);
